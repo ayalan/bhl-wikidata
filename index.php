@@ -9,7 +9,10 @@ if (file_exists(dirname(__FILE__) . '/env.php'))
 }
 
 require_once(dirname(__FILE__) . '/shared.php');
-require_once(dirname(__FILE__) . '/wikidata.php');
+require_once(dirname(__FILE__) . '/wikidata-utils.php');
+require_once(dirname(__FILE__) . '/wikidata-identifiers.php');
+require_once(dirname(__FILE__) . '/wikidata-authors.php');
+require_once(dirname(__FILE__) . '/wikidata-csl.php');
 
 //----------------------------------------------------------------------------------------
 // Get BHL part from DOI (typically an external id)
